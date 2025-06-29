@@ -1,0 +1,13 @@
+seed: 42
+train_csv: data/train.csv
+dev_csv:   data/dev.csv
+seg_sec: 4.0
+num_workers: 4
+depth: 4          # RWKV layers
+lr: 3.0e-4
+amp: True
+warm_steps: 1000
+epochs: 20
+accum_steps: 4    # effective batch 4
+eval_every: 1
+
