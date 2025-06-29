@@ -6,7 +6,7 @@ git clone https://github.com/descriptinc/descript-audio-codec.git
 git clone https://github.com/RWKV/RWKV-block.git
 
 # Install requirements per repo
-pip install -r /content/LibriMix/requirements.txt
+pip install -r LibriMix/requirements.txt
 pip install descript-audio-codec
 pip install flash-linear-attention
 
